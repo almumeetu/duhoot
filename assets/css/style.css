@@ -47,7 +47,7 @@
 
 body {
   font-family: "Merriweather", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   color: var(--clr-common-text);
   line-height: 26px;
@@ -892,6 +892,28 @@ p {
 
 .container {
   max-width: 980px;
+}
+
+.header .main-menu nav a {
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 15px;
+  color: #96a6a7;
+}
+.header .login-btn .search-icon {
+  padding: 25px;
+  background: #e2dee0;
+  color: #fff;
+}
+.header .login-btn .login {
+  background: #e94e38;
+  color: #fff;
+  padding: 25px;
+  margin-left: -4px;
+}
+.header .login-btn .login i {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
