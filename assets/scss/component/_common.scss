@@ -42,15 +42,15 @@
     01. common CSS
 ----------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
+@import url("@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@100;300;400;700&display=swap');");
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body {
-	font-family: $roboto;
-	font-size: 16px;
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
 	font-weight: normal;
 	color: var(--clr-common-text);
 	line-height: 26px;
@@ -130,7 +130,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $poppins;
+	font-family: 'Merriweather', serif;
 	color: var(--clr-common-heading);
 	margin-top: 0px;
 	font-weight: 700;
@@ -165,7 +165,7 @@ li {
 	list-style: none;
 }
 p {
-	font-family: $roboto;
+	font-family: 'Merriweather', serif;
 	font-size: 16px;
 	font-weight: normal;
 	color: var(--clr-common-text);
@@ -848,6 +848,9 @@ p {
 		top: 12px;
 		color: #919191;
 	}
+}
+.container{
+	max-width: 980px;
 }
 
 
