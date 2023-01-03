@@ -26,6 +26,17 @@
             color: #fff;
             padding: 25px;
             margin-left: -4px;
+            transition: all .5s;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 100%;
+                top: 0;
+                bottom: 0;
+                right: -145px;
+                background: #e94e38;
+            }
             & i{
                 margin-right: 10px;
             }
