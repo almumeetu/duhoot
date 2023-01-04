@@ -1017,7 +1017,6 @@ h2 {
   margin-left: 15px;
   padding: 12px 5px;
   border-radius: 5px;
-  transition: 0.3s;
 }
 .update ul li:hover {
   background: #e94e38;
@@ -1025,6 +1024,10 @@ h2 {
 }
 .update ul li:first-child {
   margin-left: 0;
+  color: #e94e38;
+}
+.update ul li:first-child:hover {
+  color: #fff;
 }
 .update ul li a {
   font-size: 14px;
