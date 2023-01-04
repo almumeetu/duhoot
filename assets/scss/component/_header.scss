@@ -12,6 +12,12 @@
                 font-weight: 300;
                 font-size: 15px;
                 color: #96a6a7;
+                transition:all .3s;
+                border-radius: 5px;
+                &:hover{
+                    background: #e94e38;
+                    color: #fff;
+                }
             }
         }
     }
@@ -20,6 +26,11 @@
             padding: 25px;
             background: #e2dee0;
             color: #fff;
+            font-size: 16px;
+            transition: .3s;
+            &:hover{
+                color: #e94e38;
+            }
         }
         & .login{
             background: #e94e38;

@@ -1,36 +1,14 @@
 @use "../abstract" as *;
 .nice-select {
-	-webkit-tap-highlight-color: transparent;
-	background-color: #5b5b56;
+	background-color: #8e8e8b;
 	border-radius: 30px;
-	border: solid 1px #e8e8e8;
-	box-sizing: border-box;
-	clear: both;
-	cursor: pointer;
-	display: block;
-	float: left;
-	font-family: inherit;
-	font-size: 14px;
-	font-weight: normal;
 	height: 53px;
-	line-height: 40px;
-	outline: none;
-	padding-left: 18px;
-	padding-right: 30px;
-	position: relative;
-	text-align: left !important;
-	-webkit-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	white-space: nowrap;
-	width: auto;
+    opacity: .7;
 }
 .current {
 	color: #fff;
 	font-size: 18px;
+    opacity: 99;
 }
 .nice-select::after {
 	border-bottom: 2px solid #fff;
@@ -56,8 +34,31 @@
 }
 .form-control:focus {
 	color: none;
-	background-color: #5b5b56;
+	background-color: #8e8e8b;
 	border-color: none;
 	outline: 0;
 	box-shadow: 0 0 0 0 ;
+}
+.form-control {
+	border-radius: 30px;
+	height: 53px;
+    margin-bottom: 10px;
+    background-color: #8e8e8b;
+    opacity: .7;
+    &::placeholder{
+        color: #fff;
+    }
+}
+.search-btn {
+	color: #fff;
+	background: #e94e38;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-align: center;
+	width: 125px;
+	margin: 0 auto;
+    text-transform: uppercase;
+}
+h2{
+	color: #fff;
 }
