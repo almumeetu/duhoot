@@ -895,7 +895,7 @@ p {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1050px;
 }
 
 .header .main-menu nav a {
@@ -1010,6 +1010,45 @@ p {
 
 h2 {
   color: #fff;
+}
+
+.update ul li {
+  display: inline;
+  margin-left: 15px;
+  padding: 12px 5px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.update ul li:hover {
+  background: #e94e38;
+  color: #fff;
+}
+.update ul li:first-child {
+  margin-left: 0;
+}
+.update ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.filter-form a {
+  padding: 12px 20px;
+  border: 1px solid #cad2d3;
+  border-radius: 30px;
+  margin-left: -20px;
+}
+.filter-form a i {
+  margin-left: 10px;
+  color: #d5dbdc;
+}
+
+.filter-Area {
+  padding: 15px 0px;
+  border-bottom: 2px solid #e2dee0;
+}
+
+.filter-form {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
