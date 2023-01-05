@@ -95,4 +95,40 @@
             }
         }
     }
+    & .second-blog{
+        & .singel-blog{
+            & .blog_2-thumb{
+              position: relative;
+                & img{
+                    width: 100%;
+                }
+                & .blog_2-icon{
+                    position: absolute;
+                    left: 28px;
+                    bottom: -30px;
+                }
+                & .blog-overlay{
+                    position: absolute;
+                    top: 99px;
+                    left: 98px;
+                    right: 0;
+                    bottom: 0;
+                    & span{
+                       color: #fff;
+                       font-size: 16px; 
+                       font-weight: 600;
+                       text-transform: uppercase;
+                    }
+                }
+            }
+            & .blog-content{
+                padding: 20px;
+                background: #fff;
+                & .content-thumb{
+                        margin-top: 35px;
+                        margin-right: 25px;
+                }
+            }
+        }
+    }
 }

@@ -1012,6 +1012,11 @@ h2 {
   color: #fff;
 }
 
+.search-area {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .update ul li {
   display: inline;
   margin-left: 15px;
@@ -1137,6 +1142,38 @@ h2 {
 }
 .blog-area .blog .blog-content .rating {
   color: #f19e1f;
+}
+.blog-area .second-blog .singel-blog .blog_2-thumb {
+  position: relative;
+}
+.blog-area .second-blog .singel-blog .blog_2-thumb img {
+  width: 100%;
+}
+.blog-area .second-blog .singel-blog .blog_2-thumb .blog_2-icon {
+  position: absolute;
+  left: 28px;
+  bottom: -30px;
+}
+.blog-area .second-blog .singel-blog .blog_2-thumb .blog-overlay {
+  position: absolute;
+  top: 99px;
+  left: 98px;
+  right: 0;
+  bottom: 0;
+}
+.blog-area .second-blog .singel-blog .blog_2-thumb .blog-overlay span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.blog-area .second-blog .singel-blog .blog-content {
+  padding: 20px;
+  background: #fff;
+}
+.blog-area .second-blog .singel-blog .blog-content .content-thumb {
+  margin-top: 35px;
+  margin-right: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
