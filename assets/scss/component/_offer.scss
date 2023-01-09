@@ -1,9 +1,10 @@
 @use "../abstract" as *;
 
 .offer-area {
-   
+   background: #f3f1f2;
     & .section-title {
         margin-bottom: 50px;
+        border-top: 2px solid #e2dee0;
         & h3 {
             color: #566375;
             font-size: 30px;
@@ -29,12 +30,12 @@
                 content: "";
                 top: 53px;
                 left: 1px;
-                width: 99px;
+                width: 69px;
                 height: 2px;
                 background: #e2dee0 none repeat scroll 0 0;
             }
             & a {
-                margin-left: 100px;
+                margin-left: 70px;
                 // &:first-child{
                 //     margin-left: 0;
                 // }
