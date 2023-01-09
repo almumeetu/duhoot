@@ -1176,4 +1176,105 @@ h2 {
   margin-right: 25px;
 }
 
+.offer-area .section-title {
+  margin-bottom: 50px;
+}
+.offer-area .section-title h3 {
+  color: #566375;
+  font-size: 30px;
+}
+.offer-area .section-title span {
+  font-size: 20px;
+  color: #afbabb;
+}
+.offer-area .offer-icon .singel-icon {
+  position: relative;
+}
+.offer-area .offer-icon .singel-icon:first-child::before {
+  background: none;
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+.offer-area .offer-icon .singel-icon::before {
+  position: absolute;
+  content: "";
+  top: 53px;
+  left: 1px;
+  width: 99px;
+  height: 2px;
+  background: #e2dee0 none repeat scroll 0 0;
+}
+.offer-area .offer-icon .singel-icon a {
+  margin-left: 100px;
+}
+.offer-area .offer-title {
+  margin-bottom: 25px;
+}
+.offer-area .offer-title h3 {
+  color: #1db05e;
+}
+
+.footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .footer-title {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.footer .footer-title h2 {
+  font-size: 30px;
+}
+.footer .subscribe {
+  background: rgba(91, 85, 83, 0.5);
+  padding: 22px 40px;
+  border-radius: 40px;
+  width: 45%;
+  margin: 0 auto;
+  position: relative;
+}
+.footer .subscribe img {
+  color: #fff;
+}
+.footer .subscribe a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.footer .subscribe .sub-btn {
+  position: absolute;
+  padding: 15px;
+  border-radius: 30px;
+  background: #e94e38;
+  top: 7px;
+  right: 8px;
+  text-transform: uppercase;
+}
+.footer .subscribe .sub-btn a {
+  font-size: 17px;
+}
+.footer .footer-bottom .footer-left .f-title {
+  margin-bottom: 30px;
+}
+.footer .footer-bottom .footer-left .f-title h4 {
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+}
+.footer .footer-bottom .footer-left .f-title h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 110px;
+  background: #5e5a51;
+  bottom: 0;
+  left: 0;
+}
+.footer .footer-bottom .footer-left .f-content p {
+  font-size: 18px;
+  color: #c0bebc;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

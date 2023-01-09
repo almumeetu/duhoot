@@ -1,0 +1,70 @@
+@use "../abstract" as *;
+.footer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    & .footer-title{
+        padding-top: 60px;
+        padding-bottom: 20px;
+        & h2{
+            font-size: 30px;
+        }
+    }
+    & .subscribe{
+        background: rgba(91, 85, 83, .5);
+        padding:22px 40px;
+        border-radius: 40px;
+        width: 45%;
+        margin: 0 auto;
+        position: relative;
+        & img{
+            color: #fff;
+        }
+        & a{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+        }
+        & .sub-btn{
+            position: absolute;
+            padding: 15px;
+            border-radius: 30px;
+            background: #e94e38;
+            top: 7px;
+            right: 8px;
+            text-transform: uppercase;
+            & a{
+               
+                font-size: 17px;
+            }
+        }
+    }
+    & .footer-bottom{
+        & .footer-left{
+            & .f-title{
+               margin-bottom: 30px;
+                & h4{
+                    font-size: 25px;
+                    color: #fff;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 2px;
+                        width: 110px;
+                        background: #5e5a51;
+                        bottom: 0;
+                        left: 0;
+                    }
+                }
+            }
+            & .f-content{
+                & p{
+                    font-size: 18px;
+                    color: #c0bebc;
+                    margin-bottom: 10px;
+
+                }
+            }
+        }
+    }
+}
