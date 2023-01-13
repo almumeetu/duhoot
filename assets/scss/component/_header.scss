@@ -5,7 +5,15 @@
         
     }
     & .main-menu{
-        & nav{
+        text-align: center;
+        & .menu-toggle-btn{
+            float: right;
+            color: #000;
+            font-size: 26px;
+            display: none;
+        }
+        & .navigation-menu{
+
             & a{
                 padding:20px 10px ;
                 text-transform: uppercase;
