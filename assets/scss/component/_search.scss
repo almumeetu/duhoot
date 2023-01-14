@@ -1,6 +1,6 @@
 @use "../abstract" as *;
 .nice-select {
-	background-color: #8e8e8b;
+	background: transparent;
 	border-radius: 30px;
 	height: 53px;
     opacity: .7;
@@ -34,7 +34,7 @@
 }
 .form-control:focus {
 	color: none;
-	background-color: #8e8e8b;
+	background-color: transparent;
 	border-color: none;
 	outline: 0;
 	box-shadow: 0 0 0 0 ;
@@ -43,11 +43,15 @@
 	border-radius: 30px;
 	height: 53px;
     margin-bottom: 10px;
-    background-color: #8e8e8b;
-    opacity: .7;
+    background-color: transparent;
+    opacity: 1;
     &::placeholder{
         color: #fff;
     }
+}
+.list {
+	width: 100%;
+	background: transparent;
 }
 .search-btn {
 	color: #fff;

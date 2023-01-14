@@ -952,7 +952,7 @@ p {
 }
 
 .nice-select {
-  background-color: #8e8e8b;
+  background: transparent;
   border-radius: 30px;
   height: 53px;
   opacity: 0.7;
@@ -989,7 +989,7 @@ p {
 
 .form-control:focus {
   color: none;
-  background-color: #8e8e8b;
+  background-color: transparent;
   border-color: none;
   outline: 0;
   box-shadow: 0 0 0 0;
@@ -999,11 +999,16 @@ p {
   border-radius: 30px;
   height: 53px;
   margin-bottom: 10px;
-  background-color: #8e8e8b;
-  opacity: 0.7;
+  background-color: transparent;
+  opacity: 1;
 }
 .form-control::placeholder {
   color: #fff;
+}
+
+.list {
+  width: 100%;
+  background: transparent;
 }
 
 .search-btn {
@@ -1370,6 +1375,31 @@ h2 {
   }
   .footer .subscribe a {
     font-size: 18px;
+  }
+  .footer .subscribe {
+    padding: 18px 10px;
+    border-radius: 31px;
+    width: 90%;
+    text-align: left;
+  }
+  .footer .subscribe .sub-btn {
+    position: absolute;
+    padding: 10px;
+    border-radius: 30px;
+    background: #e94e38;
+    top: 9px;
+    right: 3px;
+    text-transform: uppercase;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer .footer-bottom .footer-left .f-title h4 {
+    position: inherit;
+  }
+  .singel-offer {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
